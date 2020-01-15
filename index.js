@@ -1,7 +1,7 @@
 var es = require('event-stream'),
     merge = require('deeply'),
     rjs = require('gulp-requirejs'),
-    File = require('gulp-util').File,
+    File = require('vinyl'),
     Q = require('q'),
     _ = require('underscore');
 
